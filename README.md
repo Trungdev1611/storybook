@@ -67,3 +67,22 @@ export const Button: React.FC<ButtonProps> = ({
   label,
   ...props
 }) => {....}
+
+
+3. Define các giá trị cho các biến thể với property args
+export const NavbarSmallRed = {
+    //define các props của component
+    args: {
+        text: "Nav Small and Red",
+        color: "red",
+        size: 14
+    }
+}
+
+export const NavbarGreen = {
+    //define các props của component
+   args: {
+    color: "green",
+    text: "Text with Green color"
+   }
+}
